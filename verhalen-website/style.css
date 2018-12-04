@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200, 300, 400,700');
 body{
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #F5F5F6;
@@ -10,6 +10,25 @@ header{
     background-color: #ffffff;
     padding-top: 15px;
     width: 100%;
+}
+
+h1, h2, h3, h4, p{
+    font-family:  font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 18px;
+}
+p{
+    16px;
 }
 
 header #logo{
@@ -54,7 +73,7 @@ section#headingimg h1{
     font-weight: 500;
     text-align: center;
     position:relative;
-    padding-top: 180px;
+    padding-top: 150px;
 }
 
 section button{
@@ -68,4 +87,116 @@ section button{
     border:none;
 
 }
+
+#body{
+    width:90%;
+    margin: 0 auto;
+    background-color: #F5F5F6;
+    position:relative;
+    margin-top: -50px;
+    border-radius: 4px;
+   
+}
+#resultatenP{
+    text-align: right;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* formulier */
+
+#formulieren{
+    width: 90%;
+    margin: 0 auto;
+}
+#formulieren h2{
+    padding-top: 10px;
+}
+
+.checkboxcontainer input{
+    display: none;  
+}
+
+.checkboxcontainer{
+    display: inline-block;
+    padding-left: 25px;
+    margin-right: 50px;
+
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.checkboxcontainer .checkmark{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: solid 2px gray;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 3px;
+}
+
+.checkboxcontainer input:checked + .checkmark{
+   border: solid 2px #13679C;
+
+}
+
+.checkboxcontainer:hover .checkmark{
+    border: solid 2px dimgray; 
+  
+}
+
+.checkboxcontainer input:checked + .checkmark:after{
     
+    position: absolute;
+     content: url(images/checkmark.svg);
+  position: absolute;
+top:-4px;
+  font-size: 1.5em;
+  line-height: 0.8;
+  color: #09ad7e;
+  transition: all .2s;
+}
+
+
+
+
+
+
+/* ARTICLE */
+
+article{
+    max-width: 360px;
+    height: 390px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px 0 rgba(35,31,32,0.1);
+    text-align: center;   
+}
+
+article img{
+    max-width: 333px;
+}
+article #article-text{
+    width: 90%;
+    margin: 0 auto;
+}
+
+article #categorie-title{
+    font-size:15px;
+    font-weight: 200;
+}
+
+#line{
+    width: 100px;
+    height:3px;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+
+

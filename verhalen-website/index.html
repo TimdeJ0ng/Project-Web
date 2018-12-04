@@ -21,25 +21,85 @@
         <div id="logo"></div>
         <div id="search"></div>  
     </header>
+
     
     <section id="headingimg" >
         <h1>Verhalen voor onderweg</h1>
         <button>verras me</button>
     </section>
-    <section>
-        <a href="...">filter en sorteren</a>
-        <h2>filter en sorteren</h2>
+    
+    <div id="body">    
+    <section id="formulieren">
+        <h2>Verfijn verhalen</h2>
+        
+        <h4>Filteren</h4>
         
         <form action="">
+        <label class="checkboxcontainer"> Fictie (20)
+            <input type="checkbox" name="Filteren">   
+            <span class="checkmark"></span>
+        </label>
+           <label class="checkboxcontainer"> Maatschappij (11)
+            <input type="checkbox" name="Filteren">   
+            <span class="checkmark"></span>
+        </label>
+        <label class="checkboxcontainer"> Emotie (12)
+            <input type="checkbox" name="Filteren">   
+            <span class="checkmark"></span>
+        </label>
+            <label class="checkboxcontainer"> Humor (25)
+            <input type="checkbox" name="Filteren">   
+            <span class="checkmark"></span>
+        </label>
+              <label class="checkboxcontainer"> Literatuur (2)
+            <input type="checkbox" name="Filteren">   
+            <span class="checkmark"></span>
+        </label>
+         <label class="checkboxcontainer"> Politiek (8)
+            <input type="checkbox" name="Filteren">   
+            <span class="checkmark"></span>
+        </label>
+        <label class="checkboxcontainer"> Non-fictie(60)
+            <input type="checkbox" name="Filteren">   
+            <span class="checkmark"></span>
+        </label>
+        <label class="checkboxcontainer"> Tv/ film(10)
+            <input type="checkbox" name="Filteren">   
+            <span class="checkmark"></span>
+        </label>
+        </form>
+        
+        
+        <form action="">
+           
+           
+            <label class="radiocontainer"> Fictie (20)
+                <input type="radio" name="Sorteren">   
+                <span class="radio"></span>
+            </label>
+        </form>
+        
+        
+       <!-- <form action="">
+        <form action="">
+              <label><input type="radio" name="Sorteren"> <span class="label-text">Alfabetisch</span></label>
+              <label><input type="radio" name="Sorteren"> <span class="label-text">Lang verhaal</span></label>
+              <label><input type="radio" name="Sorteren"> <span class="label-text">Kort verhaal</span></label>
+              <label><input type="radio" name="Sorteren"> <span class="label-text">Hoogste beoordeling</span></label>
+              <label><input type="radio" name="Sorteren"> <span class="label-text">Laagste beoordeling</span></label>
+        </form>
+        
+       
+        
          <p>Sorteren op:</p>
               <select name="Sorteren op">
-                <option value="Alfabetisch">Alfabetisch</option>
-                <option value="Lang verhaal">Lang verhaal</option>
-                <option value="Kort verhaal">Kort verhaal</option>
-                <option value="Hoogste beoordeling">Hoogste beoordeling</option>
+                <option value="Alfabetisch"></option>
+                <option value="Lang verhaal"></option>
+                <option value="Kort verhaal"></option>
+                <option value="Hoogste beoordeling"></option>
                 <option value="Laagste beoordeling">Laagste beoordeling</option>
               </select>
-        </form>
+        </form> 
         
         <form action="">   
             Genre:
@@ -53,21 +113,39 @@
   <option value="Non-Fixtie">Non-fictie(60)</option>
   <option value="TV/Film">Tv/ film(10)</option>
 </select>
-        </form>      
+        </form> -->     
     </section>
-    <p>99 verhalen gevonden</p>
+    <p id="resultatenP">99 verhalen gevonden</p>
     
     <article>
-        <img>
+        
+        <img src="images/stock.jpg" >
+       
+        <div id="article-text">
         <h3>
             Vrijdag de 13e
         </h3>
-        <p>Triest</p>
+        <p id="categorie-title">Triest</p>
         <div id="line" ></div>
         <p>Lorem ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+             </div>
     </article>
+          <article>
+        
+        <img src="images/stock.jpg" >
+       
+        <div id="article-text">
+        <h3>
+            Vrijdag de 13e
+        </h3>
+        <p id="categorie-title">Triest</p>
+        <div id="line" ></div>
+        <p>Lorem ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+             </div>
+    </article>
+
    
-   
+  </div>
    
     
 </body>
